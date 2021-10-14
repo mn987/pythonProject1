@@ -1,0 +1,15 @@
+import math
+import random
+
+a = [10,5,7,2,6]
+print(sum(a))
+print(math.prod(a))
+print(max(a))
+print(min(a))
+a.sort()
+print(a)
+print(len(a))
+print(random.choice(a))
+b = [0,9,3,5,2,5]
+print(a+b)
+
